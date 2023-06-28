@@ -10,4 +10,5 @@ To run the project, simply clone the repository and open the HTML file in a web 
 
 Feel free to contribute to this project by adding more features, enhancing the design, or implementing additional functionalities. Your feedback and contributions are highly appreciated.
 
-For a live preview of the Amazon Clone, you can visit the following link: <a href="https://rahul28428.github.io/Amazon-Clone/"> Amazon Clone </a>
+For a live preview of the Amazon Clone, you can visit the following link: <a href="https://rahul28428.github.io/Amazon-Clone/" target="_blank">Amazon Clone/</a>
+
