@@ -1,4 +1,4 @@
-#Amazon Clone
+<h1> Amazon Clone </h1>
 
 This is a clone of the popular e-commerce website Amazon. The project aims to replicate the main features and design of the Amazon website, providing users with a familiar and intuitive shopping experience. The clone is built using HTML and CSS, and it includes various sections such as the navigation bar, search functionality, product categories, and a footer with links to different pages.
 
