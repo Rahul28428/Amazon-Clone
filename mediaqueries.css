@@ -1,0 +1,176 @@
+/* Mobile devices */
+@media (max-width: 937px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+  }
+
+  .nav-logo {
+    margin: 0;
+  }
+/* 
+  .nav-menu {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-menu-icon {
+    display: block;
+    font-size: 20px;
+    margin-left: 10px;
+  } */
+
+  .hero-section {
+    height: 200px;
+  }
+
+  .box {
+    width: 48%;
+  }
+
+  .foot-panel1 {
+    margin-top: 4px;
+  }
+
+  .foot-panel2 {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+  }
+
+  .foot-panel2 ul {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+
+  .foot-panel3 {
+    height: 100px;
+  }
+
+  .foot-panel4 {
+    height: 150px;
+  }
+}
+
+/* Tablets and small desktop screens */
+@media (min-width: 938px) and (max-width: 1023px) {
+  .hero-section {
+    height: 300px;
+  }
+
+  .box {
+    width: 31%;
+  }
+}
+
+/* Large desktop screens */
+@media (min-width: 1024px) {
+  .hero-section {
+    height: 380px;
+  }
+
+  .box {
+    width: 23%;
+  }
+}
+
+/* General mobile styles */
+@media (max-width: 768px) {
+  .box {
+    flex: 0 0 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+  }
+
+  .shop-section h2 {
+    font-size: 5vw;
+  }
+
+  .panel-ops p {
+    margin-left: 20px;
+  }
+
+  .panel-ops {
+    width: 85%;
+    font-size: 0.75rem;
+  }
+
+  .panel-deals {
+    font-size: 0.8rem;
+  }
+
+  .panel {
+    display: none;
+  }
+
+  .nav-logo {
+    width: auto;
+    padding: 0 15px;
+  }
+
+  .navbar {
+    justify-content: space-between;
+  }
+
+  .menu-icon {
+    display: block;
+    font-size: 1.7rem;
+    margin-right: 5vw;
+    cursor: pointer;
+  }
+
+  .nav-address,
+  .nav-search,
+  .nav-signin,
+  .nav-return,
+  .nav-cart {
+    display: none;
+  }
+
+  .show {
+    display: block;
+  }
+
+  .hero-section {
+    background-image: url("hero_image.jpg");
+    height: 220px;
+    background-size: cover;
+    background-position: center;
+  }
+
+}
+
+@media (max-width:780px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .toggle-button {
+    display: flex;
+  }
+
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .navbar-links ul li {
+    text-align: center;
+  }
+
+  .navbar-links ul li a {
+    padding: .5rem 1rem;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+}
+
